@@ -11,7 +11,7 @@ public class Media {
 
               media = kmrodados / combustivelgasto;
 
-            if (combustivelgasto > 0) {
+            if (combustivelgasto > 0 & kmrodados > 0) {
                System.out.println("O consumo médio de combustível foi:" + media);
 
              }else {
